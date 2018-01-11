@@ -1,0 +1,9 @@
+function noOutput = vecAdd(x,y)
+
+% This function takes the vectors x and y as inputs and calculates their
+% sum. The function also plots the original vectors and sum.
+
+if or(length(x)~=2, length(y)~=2)
+    disp('ERROR: the input vectors must have length 2');
+    return
+end %if
